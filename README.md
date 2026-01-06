@@ -37,7 +37,7 @@ Because regions can be recursively split down to individual pixels, the method g
 
 <!-- A Binary Partition Tree (BPT) is a hierarchical binary partitioning of an image, that is performed bottom-up minimazing a data-aware distance function. -->
 <center>
-<img src="docs/Fig1_explain_bpt-1.png">
+<img src="https://github.com/amparore/shap_bpt/blob/main/docs/Fig1_explain_bpt-1.png">
 </center>
 <!-- A BPT is conceptually similar to the approach of the [Partition Explainer of SHAP](https://shap-lrjball.readthedocs.io/en/latest/example_notebooks/partition_explainer/Partition.html), which uses Axis-Aligned (AA) partitions. Instead, ShapBPT works over a hierarchy that 
 is data-aware. -->
@@ -47,18 +47,18 @@ is data-aware. -->
 
 A **Binary Partition Tree** is built bottom-up, starting from the individual pixels and then merging adjacent regions that minimize a distance function, until all regions are merged into a single cluster. The tree that forms is the BPT tree.
 
-<center><img src="docs/bpt-animation.gif"></center>
+<center><img src="https://github.com/amparore/shap_bpt/blob/main/docs/bpt-animation.gif"></center>
 
 In practice, the BPT hierarchy is used top-down, starting from the root cluster and splitting adaptively.
 ShapBPT uses the BPT hierarchy to generate feature attributions in the form of (Owen approximations) of the Shapley coefficients.
 <center>
-<img src="docs/sequence_aa.gif">
-<img src="docs/sequence_bpt.gif">
+<img src="https://github.com/amparore/shap_bpt/blob/main/docs/sequence_aa.gif">
+<img src="https://github.com/amparore/shap_bpt/blob/main/docs/sequence_bpt.gif">
 </center>
 The ShapBPT python library follows the BPT hierachy to compute Shapley values.
 The resulting explanation follows the morphological regions pre-identified by the BPT algorithm, and therefore works under the assumption that the explained regions are somewhat identified by relevant image features. If this assumption does not hold for a given region, then such region can be split up, until the individual pixels are reached.
 <center>
-<img src="docs/Fig3_sequence_explanations-1.png">
+<img src="https://github.com/amparore/shap_bpt/blob/main/docs/Fig3_sequence_explanations-1.png">
 </center>
 
 # Using ShapBPT
@@ -108,10 +108,10 @@ shap_bpt.plot_owen_values(explainer, shap_values, class_names)
 ```
 
 With `eval_budget=100` and `method='BPT'` we obtain the explanation:
-<center><img src="docs/bpt_plot.png"></center>
+<center><img src="https://github.com/amparore/shap_bpt/blob/main/docs/bpt_plot.png"></center>
 
 With `eval_budget=100` and `method='AA'` we obtain the explanation:
-<center><img src="docs/aa_plot.png"></center>
+<center><img src="https://github.com/amparore/shap_bpt/blob/main/docs/aa_plot.png"></center>
 
 See the provided notebooks for examples on how to setup and run ShapBPT.
 
