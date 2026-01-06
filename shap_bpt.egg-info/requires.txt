@@ -1,5 +1,9 @@
-Cython
+torch
+torchvision
 numpy
+pillow
 matplotlib
+timm
 tqdm
 scikit-image
+scikit-learn
