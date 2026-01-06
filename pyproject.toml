@@ -6,3 +6,29 @@ requires = [
   "numpy>=1.21"
 ]
 build-backend = "setuptools.build_meta"
+
+
+
+[project]
+name = "shap-bpt"
+version = "0.0.1"
+description = "An novel eXplainble AI package to generate shapley values using binary partition trees"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Elvio G. Amparore, Muhammad Rashid" }
+]
+dependencies = [
+  "torch",
+  "torchvision",
+  "numpy",
+  "pillow",
+  "matplotlib",
+  "timm",
+  "scikit-image",
+  "scikit-learn"
+]
+
+[project.urls]
+Homepage = "https://github.com/amparore/shap_bpt"
