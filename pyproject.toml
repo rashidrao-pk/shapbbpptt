@@ -17,7 +17,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [
-  { name = "Elvio G. Amparore" , email = "elviogilberto.amparore@unito.it" }
+  { name = "Elvio G. Amparore" , email = "elviogilberto.amparore@unito.it" },
   { name = "Muhammad Rashid" , email = "muhammad.rashid@unito.it" }
 ]
 
@@ -25,14 +25,6 @@ authors = [
 maintainers = [
   { name = "Muhammad Rashid", email = "muhammadrashid8045@gmail.com" }
 ]
-
-[project.urls]
-Homepage = "https://github.com/amparore/shap_bpt"
-Shapbpt-Tests = "https://github.com/rashidrao-pk/shap_bpt_tests"
-Documentation = "https://github.com/amparore/shap_bpt#readme"
-Issues = "https://github.com/amparore/shap_bpt/issues"
-Paper = "https://arxiv.org/abs/XXXX.XXXXX"
-AAAI = "https://aaai.org/aaai26/"
 
 keywords = [
   "explainable-ai",
@@ -68,3 +60,11 @@ dependencies = [
   "scikit-learn"
 ]
 
+
+[project.urls]
+Homepage = "https://github.com/amparore/shap_bpt"
+Shapbpt-Tests = "https://github.com/rashidrao-pk/shap_bpt_tests"
+Documentation = "https://github.com/amparore/shap_bpt#readme"
+Issues = "https://github.com/amparore/shap_bpt/issues"
+Paper = "https://arxiv.org/abs/XXXX.XXXXX"
+AAAI = "https://aaai.org/aaai26/"

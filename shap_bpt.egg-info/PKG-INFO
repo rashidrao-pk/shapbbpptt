@@ -1,9 +1,9 @@
 Metadata-Version: 2.4
 Name: shap-bpt
-Version: 1.0
+Version: 1.0.1
 Summary: A python library to compute Shapley image explanations with data-aware Binary Partition Trees
-Author: Elvio G. Amparore
-Maintainer-email: Muhammad Rashid <rashid@example.com>
+Author-email: "Elvio G. Amparore" <elviogilberto.amparore@unito.it>, Muhammad Rashid <muhammad.rashid@unito.it>
+Maintainer-email: Muhammad Rashid <muhammadrashid8045@gmail.com>
 License: MIT
 Project-URL: Homepage, https://github.com/amparore/shap_bpt
 Project-URL: Shapbpt-Tests, https://github.com/rashidrao-pk/shap_bpt_tests
