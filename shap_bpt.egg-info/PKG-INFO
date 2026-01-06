@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: shap-bpt
-Version: 0.0.1
+Version: 1.0
 Summary: A python library to compute Shapley image explanations with data-aware Binary Partition Trees
 Author: Elvio G. Amparore
 Maintainer-email: Muhammad Rashid <rashid@example.com>

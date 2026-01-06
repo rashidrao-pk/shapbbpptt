@@ -11,7 +11,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "shap-bpt"
-version = "1.0"
+version = "1.0.1"
 description = "A python library to compute Shapley image explanations with data-aware Binary Partition Trees"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -22,7 +22,7 @@ authors = [
 
 # Optional but strongly recommended
 maintainers = [
-  { name = "Muhammad Rashid", email = "rashid@example.com" }
+  { name = "Muhammad Rashid", email = "muhammadrashid8045@gmail.com" }
 ]
 
 keywords = [
@@ -46,7 +46,6 @@ classifiers = [
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
   "Operating System :: OS Independent"
 ]
-
 
 dependencies = [
   "torch",
