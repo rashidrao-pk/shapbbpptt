@@ -229,5 +229,5 @@ python setup.py clean --all
 
 # Examples
 
-- [ImageNet setup with BPT partitions](examples/ImageNET_BPT.ipynb)
-- [ImageNet setup, AA and BPT partitions](examples/ImageNET_BPT.ipynb)
+- [ImageNet setup with BPT partitions](https://github.com/amparore/shap_bpt/blob/main/examples/ImageNET_BPT.ipynb)
+- [ImageNet setup, AA and BPT partitions](https://github.com/amparore/shap_bpt/blob/main/examples/ImageNET_BPT.ipynb)
